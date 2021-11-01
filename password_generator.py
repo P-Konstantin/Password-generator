@@ -17,7 +17,7 @@ def make_pass():
     password = ''
     length = text.get() # получаем длину пароля
     length = int(length) # переводим полученный текст(длину пароля) в число
-    # Цикл для создания пароля
+    # Создаем цикл для создания пароля
     for i in range(length):
         password += random.choice(chars)
     password = password + '\n'
@@ -43,8 +43,9 @@ window.geometry('360x360')
 
 # Создаем надпись
 lb1 = tkinter.Label(window, text='Программа для создания паролей')
-# Задаем расположение надписи
+# Задаем цвет надписи
 lb1['bg'] = '#acb3ff'
+# Задаем расположение надписи
 lb1.place(x=10, y=10)
 
 
@@ -53,12 +54,17 @@ lb2['bg'] = '#acb3ff'
 lb2.place(x=10, y=30)
 
 
+# Создаем текстовое поле для ввода длины пароля
 text = tkinter.Entry(window, width=10)
+# Задаем расположение текствого поля
 text.place(x=100, y=30)
 
 
+# Создаем кнопку для запуска работы программы
 btn = tkinter.Button(window, width=26, height=2, text='Создать', command=working)
+# Задаем цвет кнопки
 btn['bg'] = '#acb3ff'
+# Задаем расположение кнопки
 btn.place(x=10, y=55)
 
 
