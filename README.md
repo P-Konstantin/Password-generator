@@ -2,7 +2,7 @@
 The program for creating passwords.
 
 ## Description
-The program create passwords in any length. You need to write length of password and the program create it for you.
+The program creates passwords in any length. You need to write length of password and the program create it for you.
 
 ![Gif Password generator ](https://github.com/P-Konstantin/Password-generator/blob/master/readme_assets/password_generator.gif)
 
